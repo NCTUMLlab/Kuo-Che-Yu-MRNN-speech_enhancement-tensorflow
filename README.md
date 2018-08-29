@@ -1,11 +1,9 @@
-# Memory Augmented Neural Network for Source Separation
-In this project, we implement neural Turing machine (NTM) for sequential signals of speech and noise in presence of different speakers and noise types.
-NTM is a memory-augmented neural network which is equipped with external memory to learn long sequential data.
-The information is stored with attention mechanism and read-writing scheme. 
-For more details about NTM, you can refer to [Neural Turing Machine](https://arxiv.org/pdf/1410.5401.pdf).
-The system architecture and experimental settings are shown in Memory Augmented Neural Network for Source Separation.
+# Markov Recurrent Neural Network for speech enhancement
+In this project, we implement Markov Recurrent Neural Network (MRNN) for speech enhancement.
 
-<img src="Others/NTMCell.png" width="50%">
+Markov recurrent neural network (MRNN) explore the stochastic transitions in recurrent neural networks by incorporating the Markov property with discrete random variables. This model was proposed to deal with highly structured sequential data with complicated latent information. The discrete samples are drawn from the parameterized categorical distribution at each time step, and latent information is encoded by different state encoders depends on which state is selected.
+
+<img src="Others/Model.png" width="100%">
 
 
 
@@ -20,7 +18,7 @@ The system architecture and experimental settings are shown in Memory Augmented 
 	- Noises are collected from [freeSFX](http://www.freesfx.co.uk/soundeffects/) and [AudioMicro](http://www.audiomicro.com/free-sound-effects)
 
 ## Result
-- An example of demixed signal
+- An example of original data signal
 
 |<img src="Others/spectrum_mix.png" width="80%">|
 |:--------------------------------------------:|
@@ -32,25 +30,23 @@ The system architecture and experimental settings are shown in Memory Augmented 
 |Clean signal|
 
 
-|<img src="Others/spectrum_demix.png" width="80%">|
+- An example of testing outputs
+
+|<img src="Others/exp_result/spec_mix.png" width="80%">|
 |:--------------------------------------------:|
-|Demixed signal|
+|Mixed signal|
 
-- STOI measure on other noises
 
-<img src="Others/stoi1.png" width="80%"/>|<img src="Others/stoi2.png" width="80%/">
-:----------------------------------------:|:----------------------------------------:
-Seen speakers                             |Unseen speakers
+|<img src="Others/exp_result/spec_clean.png" width="80%">|
+|:--------------------------------------------:|
+|Clean signal|
 
-- STOI measure on bus noises
 
-<img src="Others/test1_bus.png" width="80%"/>|<img src="Others/test2_bus.png" width="80%/">
-:--------------------------------------------:|:--------------------------------------------:
-Seen speakers                                 |Unseen speakers
+|<img src="Others/exp_result/spec_noise.png" width="80%">|
+|:--------------------------------------------:|
+|noise signal|
 
-- STOI measure on caf noises
-
-<img src="Others/test1_caf.png" width="80%"/>|<img src="Others/test2_caf.png" width="80%/">
-:--------------------------------------------:|:--------------------------------------------:
-Seen speakers                                 |Unseen speakers
+|<img src="Others/exp_result/spec_demix_mrnn.png" width="80%">|
+|:--------------------------------------------:|
+|model outputdemixed signal|
 
