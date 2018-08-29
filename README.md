@@ -48,5 +48,5 @@ Markov recurrent neural network (MRNN) explore the stochastic transitions in rec
 
 |<img src="Others/exp_result/spec_demix_mrnn.png" width="80%">|
 |:--------------------------------------------:|
-|model outputdemixed signal|
+|output signal demixed by MRNN|
 
