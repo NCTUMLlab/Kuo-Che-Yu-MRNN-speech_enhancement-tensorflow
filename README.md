@@ -50,6 +50,7 @@ Markov recurrent neural network (MRNN) explore the stochastic transitions in rec
 |:--------------------------------------------:|
 |output signal demixed by MRNN|
 
+|SNR=5|
 - An example of [clean human voice](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/Original_clean.wav)
 - An example of [noise](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/Original_noise.wav)
 - An example of [mixed signal](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/Original_mix.wav)
