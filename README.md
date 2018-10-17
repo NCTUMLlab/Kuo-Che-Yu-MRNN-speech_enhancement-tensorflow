@@ -51,9 +51,9 @@ Markov recurrent neural network (MRNN) explore the stochastic transitions in rec
 |output signal demixed by MRNN|
 
 SNR=5
-- An example of [clean human voice](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/Original_clean.wav)
-- An example of [noise](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/Original_noise.wav)
-- An example of [mixed signal](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/Original_mix.wav)
-- An example of [LSTM](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/LSTM_d=1000_sp_77.wav)
-- An example of [MRNN](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/MRNN_d=1000_K=2_sp_77.wav)
+- [clean signal](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/Original_clean.wav)
+- [noise](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/Original_noise.wav)
+- [mixed signal](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/Original_mix.wav)
+- [speech enhancement (LSTM)](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/LSTM_d=1000_sp_77.wav)
+- [speech enhancement (MRNN)](https://github.com/NCTUMLlab/Kuo-Che-Yu-MRNN-speech_enhancement-tensorflow/tree/master/Others/MRNN_d=1000_K=2_sp_77.wav)
 
